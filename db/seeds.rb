@@ -8,6 +8,253 @@
 
 
 MovieData = [
+	{
+	isMovie: true,
+	title: "Inception",
+	description:
+ 	"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO",
+	genre: "Sci-Fi",
+	dateAired: 2010,
+	trailerUrl: "https://youtu.be/YoHD9XEInc0",
+	posterUrl: "https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/ZZ1A77A886.jpg",
+	
+},
+{
+	isMovie: true,
+	title: "2001: A space Odyssey",
+	description: "After discovering a mysterious artifact buried beneath the Lunar surface, mankind sets off on a quest to find its origins with help from intelligent supercomputer H.A.L. 9000.",
+	genre: "Sci-Fi",
+	dateAired: 1968,
+	trailerUrl: "https://youtu.be/oR_e9y-bka0",
+	posterUrl: "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+	},
+
+{
+	isMovie: true ,
+title: "Back to the Future",
+	description: 
+"Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.",
+	genre: "Adventure",
+	dateAired: 1985,
+	trailerUrl: 
+"https://youtu.be/qvsgGtivCgs",
+	posterUrl: 
+"https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Back_to_the_Future.jpg/220px-Back_to_the_Future.jpg",
+	},
+
+{
+	isMovie: true,
+title: "The Hitchhiker's Guide to the Galaxy",
+	description: "Mere seconds before the Earth is to be demolished by an alien construction crew, journeyman Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of The Hitchhiker's Guide to the Galaxy.",
+	genre: "Sci-Fi",
+	dateAired: 2005,
+	trailerUrl: 
+"https://youtu.be/eLdiWe_HJv4",
+	posterUrl:
+"https://m.media-amazon.com/images/M/MV5BZmU5MGU4MjctNjA2OC00N2FhLWFhNWQtMzQyMGI2ZmQ0Y2YyL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+
+{
+	isMovie: true,
+title: "Mad Max: Fury Road",
+	description: 
+"In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+	genre: "Sci-Fi",
+	dateAired: 2015 ,
+	trailerUrl:
+"https://youtu.be/hEJnMQG9ev8",
+posterUrl: 
+"https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+
+{	
+	isMovie: true,
+title: "Pacific Rim",
+	description:
+"As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse." ,
+	genre: "Sci-Fi",
+	dateAired: 2013,
+	trailerUrl: 
+"https://youtu.be/A85EtOalcsM",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+
+{
+	isMovie: true,
+title: "Galaxy Quest",
+	description: 
+"The alumni cast of a space opera television series have to play their roles as the real thing when an alien race needs their help. However, they also have to defend both Earth and the alien race from a reptilian warlord.",
+	genre: "Sci-Fi",
+	dateAired: 1999,
+	trailerUrl: 
+"https://youtu.be/TzCx8bMMTOM",
+	posterUrl: 
+"https://m.media-amazon.com/images/M/MV5BNmZlNTY5YjQtZTU5ZC00MzcyLWI1NDMtNjA0ZjQxMmQwYjJmL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY268_CR3,0,182,268_AL_.jpg" ,
+	},
+
+{
+	isMovie: true, 
+title: "The Matrix",
+	description:
+"A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+	genre: "Sci-Fi",
+	dateAired: 1999,
+	trailerUrl:
+"https://youtu.be/vKQi3bBA1y8" ,
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+
+{
+	isMovie: true,
+title: "The Terminator",
+	description: 
+"A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation.",
+	genre: "Sci-Fi",
+	dateAired: 1984,
+	trailerUrl: 
+"https://youtu.be/k64P4l2Wmeg",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+
+{
+	isMovie: true,
+title: "The Martian",
+	description:
+ 		"An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive.",
+	genre: "Sci-Fi",
+	dateAired: 2015,
+	trailerUrl: 
+"https://youtu.be/ej3ioOneTy8",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+
+{	isMovie: false,
+title: "Star Trek: The Animated Series",
+	description: 
+"The further adventures of Captain James T. Kirk and the crew of the USS Enterprise, as they explore the galaxy and defend the United Federation of Planets.",
+	genre: "Sci-Fi",
+	dateAired: 1973,
+	trailerUrl: 
+"https://youtu.be/9hseFdKcCD4",
+	posterUrl: 
+"https://m.media-amazon.com/images/M/MV5BMzI0Y2Y0NDYtY2VhZS00YjEyLWE1MTAtMzgyNTg3ZjQ5MmJmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY268_CR9,0,182,268_AL_.jpg" ,
+	},
+
+{
+	isMovie: true ,
+title: "Alien",
+	description: 
+"After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
+	genre: "horror",
+	dateAired: 1979,
+	trailerUrl:  "https://youtu.be/LjLamj-b0I8",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+{
+	isMovie: true ,
+title: "Us",
+	description: 
+"A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.",
+	genre: "horror",
+	dateAired: 2019,
+	trailerUrl: "https://youtu.be/hNCmb-4oXJA",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BZTliNWJhM2YtNDc1MC00YTk1LWE2MGYtZmE4M2Y5ODdlNzQzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+{
+	isMovie: true ,
+title: "Get Out",
+	description: 
+"A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+	genre: "horror",
+	dateAired: 2017,
+	trailerUrl: "https://youtu.be/DzfpyUB60YY",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+{
+	isMovie: true ,
+title: "Midsomer",
+	description: 
+"A couple travels to Sweden to visit a rural hometown's fabled mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
+	genre: "horror",
+	dateAired: 2019,
+	trailerUrl: "https://youtu.be/1Vnghdsjmd0",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+{
+	isMovie: true ,
+title: "Gonjiam: Haunted Asylum",
+	description: 
+"The crew of a horror web series travels to an abandoned asylum for a live broadcast. It soon encounters much more than expected as it moves deeper inside the nightmarish old building.",
+	genre: "horror",
+	dateAired: 2018,
+	trailerUrl: "https://youtu.be/KKEgeojjcGg",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BNGU2NzI1OGYtMTMzZC00OWU5LWIxOTUtNzY0YTM3YWI5YTA1XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+{
+	isMovie: true ,
+	title: "The Invisible Man",
+	description: "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+	genre: "horror",
+	dateAired:  2020,
+	trailerUrl: "https://youtu.be/WO_FJdiY9dA",
+	posterUrl: "https://m.media-amazon.com/images/M/MV5BZjFhM2I4ZDYtZWMwNC00NTYzLWE3MDgtNjgxYmM3ZWMxYmVmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+{
+	isMovie: true ,
+title: "The Shining",
+	description: 
+"A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.
+ EN
+",
+	genre: "horror",
+	dateAired: 1980 ,
+	trailerUrl: "https://youtu.be/S014oGZiSdI",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+{
+	isMovie: true ,
+title: "Frankenstein",
+	description: 
+"Dr. Frankenstein dares to tamper with life and death by creating a human monster out of lifeless body parts.",
+	genre: "horror",
+	dateAired: 1931,
+	trailerUrl: "https://youtu.be/AkSbwiKP3mo",
+	posterUrl: 
+"https://m.media-amazon.com/images/M/MV5BMTQ0Njc1MjM0OF5BMl5BanBnXkFtZTgwNTY2NTUyMjE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+{
+	isMovie: true ,
+title: "Nosferatu, eine Symphonie des Grauens",
+	description: 
+"Vampire Count Orlok expresses interest in a new residence and real estate agent Hutter's wife.",
+	genre: "horror",
+	dateAired:1922 ,
+	trailerUrl: "https://youtu.be/5HUsa8LQ7pI",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BMTAxYjEyMTctZTg3Ni00MGZmLWIxMmMtOGM2NTFiY2U3MmExXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+{
+	isMovie: true ,
+title: "The Creature from the Black Lagoon",
+	description: 
+"A strange prehistoric beast lurks in the depths of the Amazonian jungle. A group of scientists try to capture the animal and bring it back to civilization for study.",
+	genre: "horror",
+	dateAired: 1954,
+	trailerUrl: "https://youtu.be/svyPswixryM",
+	posterUrl:  
+"https://m.media-amazon.com/images/M/MV5BMjMwMjA5NDkyMl5BMl5BanBnXkFtZTgwMzYyMTY2MTE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+	},
+
 
 
 	{
@@ -113,7 +360,7 @@ MovieData = [
 	
 	{
 		isMovie: true,
-	title: "The Terminator",
+		title: "The Terminator",
 		description: 
 	"A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation.",
 		genre: "Sci-Fi",
